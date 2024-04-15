@@ -1,122 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Fjalla One', sans-serif;
-            text-transform: uppercase;
-            background-color: #dddbdb;
-            overflow-x: hidden; /* Prevent horizontal scrolling */
-        }
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        .wrapper {
-            max-width: 100%;
-            margin: auto;
-            padding: 20px;
-            box-shadow: 5px 5px 50px black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+  <title>HELLO</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        .head-title {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin-bottom: 20px;
-            font-weight: bold;
-            font-size: 15px;
-        }
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        .cont {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-        .cont2 {
-            margin-bottom: 20px;
-        }
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        .hello {
-            color: rgb(247, 127, 14);
-            font-size: 3vh;
-        }
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-        .img-cover img {
-            max-width: 100%;
-            height: auto;
-        }
 
-        .btn-slice {
-            display: inline-block;
-            padding: 1.2rem 2.5rem;
-            border: 2px solid #ffffff;
-            border-radius: 0;
-            color: #ffffff;
-            font-size: 1.5vw; /* Responsive font size */
-            font-weight: 700;
-            letter-spacing: 0.3rem;
-            position: relative;
-            text-decoration: none; /* Remove underline */
-        }
-
-        .btn-slice .top,
-        .btn-slice .bottom {
-            height: 3px;
-            background-color: #ffffff;
-            position: absolute;
-            width: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            transition: all 0.3s ease;
-        }
-
-        .btn-slice:hover .top {
-            top: 0;
-            width: 100%;
-        }
-
-        .btn-slice:hover .bottom {
-            bottom: 0;
-            width: 100%;
-        }
-
-        .btn-slice span {
-            position: relative;
-            z-index: 1;
-        }
-    </style>
 </head>
+
 <body>
 
-<div class="wrapper">
-    <div class="head-title">
-        <div>About</div>
-        <div>Help</div>
-        <div>Contact</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">WELCOME</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="second-page.html">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center" style="height: 950px;>
+
+    <div class="container" >
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>HELLO</h1>
+          <h2>WELCOME</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="second-page.html" class="btn-get-started scrollto">Get Started</a>
+               </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
     </div>
 
-    <div class="cont">
-        <div class="cont2">
-            <span class="hello">Hello!</span>
-            Welcome
-            <a class="btn-slice" href="second-page.html">
-                <div class="top"></div>
-                <div class="bottom"></div>
-                <span>Click</span>
-            </a>
-        </div>
-        <div class="img-cover">
-            <img src="https://static.wixstatic.com/media/fb5049_d42b3fb1cdc74bda86d3991874142ad2~mv2.png/v1/fill/w_387,h_358,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%2011852.png" alt="Image">
-        </div>
-    </div>
-</div>
+  </section><!-- End Hero -->
+
+ 
+  <!-- ======= Footer ======= -->
+  
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
