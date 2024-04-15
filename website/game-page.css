@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(37, 133, 125);
+}
+.snake-game-button ,.fighting-game-button{
+ border: none;
+ background-color:black;
+ margin-bottom: 0;   
+}
+.snake-game-img,.fighting-game-img{
+    height: 50px;
+    width:50px;
+    margin-bottom: 0;
+    border-radius:10px;
+    transition: all 0.2s
+}
+.snake-game-img:hover,.fighting-game-img:hover{
+    transform: translate(0px,-20px);
+}
+.snake-name{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.fighting-game-button{
+    color: white;
+    background-color:black;
+}
+.game-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(226, 238, 238)
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    justify-content: center;
+    align-items: top;
+}
+.game-title{
+    color: rgb(208, 218, 218);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.game-title:hover{
+    color:cyan;
+}
+.big-container{
+ 
+    background-color: black;
+    width:500px;
+    margin:auto;
+    height:500px;
+    border-radius: 10px;
+}
